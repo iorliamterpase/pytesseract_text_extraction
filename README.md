@@ -17,21 +17,26 @@ cd pytesseract_text_extraction
 
 2️⃣ Install Tesseract OCR
 Download and install pytessract 
+
 Windows: Download and install  pytessract  from Tesseract OCR 
+
 pip install Tesseract in your working environment
 
 3️⃣ Set Up a Virtual Environment (Optional)
 bash
+
 python -m venv venv
 source venv/bin/activate  # For Mac/Linux
 venv\Scripts\activate     # For Windows
 
 4️⃣ Install Dependencies
 bash
+
 pip install -r requirements.txt
 
 Configuration(add prefix to the tesseract path)
 Modify Tesseract path in Windows (if needed) inside text_extraction.py:
+
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
  Usage
