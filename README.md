@@ -25,7 +25,10 @@ pip install Tesseract in your working environment
 3️⃣ Set Up a Virtual Environment (Optional)
 
 python -m venv venv
+
 source venv/bin/activate  # For Mac/Linux
+
+
 venv\Scripts\activate     # For Windows
 
 4️⃣ Install Dependencies
